@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна Робота</title>
+    <style>
+        /* Основні стилі для блоків */
+        .block {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            background-color: #f0f0f0; /* Світло-сірий фон для блоків */
+        }
+
+        /* Стилі за допомогою селектору по id */
+        #block1 {
+            background-color: lime; /* Зелений колір для блоку 1 */
+        }
+
+        #block2 {
+            border-radius: 50px; /* Закруглені кути для блоку 2 */
+        }
+
+        /* Стилі для класу block_border */
+        .block_border {
+            border: 4px solid blue; /* Синя окантовка для блоків 3 і 4 */
+        }
+
+        /* Ваші попередні стилі */
+        h1, h2, span {
+            color: red; /* Червоний колір тексту для h1, h2 та span */
+        }
+
+        div p {
+            font-weight: bold; /* Жирний шрифт для Paragraph1 */
+        }
+
+        ul > li > span {
+            color: blue; /* Синій колір тексту для Span2 */
+            font-weight: bold; /* Жирний шрифт для Span2 */
+        }
+
+        ol li + li {
+            color: green; /* Зелений колір тексту для Li2, Li3, Li4 */
+            font-style: italic; /* Курсив для Li2, Li3, Li4 */
+        }
+
+        h4 {
+            text-decoration: underline; /* Підкреслення для Заголовок4 */
+            color: purple; /* Фіолетовий колір тексту для Заголовок4 */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Блоки для завдання 5 -->
+    <div id="block1" class="block"></div>
+    <div id="block2" class="block"></div>
+    <div id="block3" class="block block_border"></div>
+    <div id="block4" class="block block_border"></div>
+
+    <!-- HTML з попередніх завдань -->
+    <h1>Заголовок1</h1>
+    <h2>Заголовок2</h2>
+    <p>Задання стилю <span>окремої ділянки</span> тексту </p>
+    <div>
+        <p>Paragraph1</p>
+    </div>
+    <p>Paragraph2</p>
+    <ul>
+        <li>
+            <p><span>Span1</span></p>
+        </li>
+        <li>
+            <span>Span2</span>
+        </li>
+    </ul>
+    <ol>
+        <li>Li1</li>
+        <li>Li2</li>
+        <li>Li3</li>
+        <li>Li4</li>
+    </ol>
+    <h3>Заголовок3</h3>
+    <h4>Заголовок4</h4>
+    <h5>Заголовок5</h5>
+    <h6>Заголовок6</h6> 
+
+</body>
+</html>
